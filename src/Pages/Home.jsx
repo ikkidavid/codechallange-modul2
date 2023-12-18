@@ -1,10 +1,8 @@
 import { Link }  from "react-router-dom"
 import React from "react"
 import TestimonialsSection from "../components/Testimonial"
-import Footer from "../components/Footer"
 import Products from "./Products"
 import About from "./About"
-import Team from "./Team"
 function Home (){
     return (
        <>
@@ -25,15 +23,10 @@ function Home (){
 
       </section>
 
-{/* testimonial */}
-
     <section className="testimonials-section">
       <TestimonialsSection></TestimonialsSection>
     </section>
 
-
- 
- 
        </> 
     )
 }
